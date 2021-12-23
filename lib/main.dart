@@ -200,12 +200,21 @@ class _MyHomePageState extends State<MyHomePage> {
             height: height * .01,
           ),
           option(title: "My Home", h: height * .08, w: width),
+          SizedBox(
+            height: height * 0.002,
+          ),
           option(title: "Messages", message: true, h: height * .08, w: width),
+          SizedBox(
+            height: height * 0.002,
+          ),
           option(title: "Family Access", h: height * .08, w: width),
           SizedBox(
             height: height * 0.01,
           ),
           option(title: "Change Password", h: height * .08, w: width),
+          SizedBox(
+            height: height * 0.002,
+          ),
           option(title: "Support", h: height * .08, w: width),
           SizedBox(
             height: height * 0.01,
